@@ -5,7 +5,7 @@
 :root{
     --cor-de-fundo: #D1E9F6 ;
     --cor-primaria: #5B99C2;
-    --cor-secundária: #A5BFDD;
+    --cor-secundária: #5086c4;
     --fonte: "Playfair Display", serif;
 
 }
@@ -51,3 +51,26 @@ nav a:hover{
     transform: scale(1.1);
     transition: transform 0.7s;
 }
+
+span{
+    color: var(--cor-secundária);
+    font-weight: bold;
+}
+
+footer{
+    background-color: var(--cor-primaria);
+    color: var(--cor-de-fundo);
+    text-align: center;
+}
+
+.graficos-container{
+    margin: 5rem;
+}
+
+.graficos-texto{
+font-size: 1.3rem;
+text-align: center;
+padding: 2rem;
+border: var(--cor-secundária) solid 2px;
+}
+
